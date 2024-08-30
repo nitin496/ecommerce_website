@@ -1,0 +1,115 @@
+/* Basic reset and styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: hsl(55, 23%, 91%);
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #e3ede9;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero Section styling */
+.hero {
+    width: 200%;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 10%;
+    height: auto;
+}
+
+/* Categories Section styling */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.category {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.category:hover {
+    background-color: #e2e2e2;
+}
+
+/* Product List Section styling */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 18px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
